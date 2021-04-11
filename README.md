@@ -7,6 +7,8 @@
     pip install --upgrade pip
     pip install opencv-contrib-python
     pip install caer
+    pip install pytesseract
+    pip install imutils
 ```
 
 ## If using VS-Code add this line

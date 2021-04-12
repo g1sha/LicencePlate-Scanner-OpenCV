@@ -45,3 +45,8 @@ A neke su iz prvog pokušaja detektovane jer polje pretrage nema puno kontura:
 ![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_1.png?raw=true)
 ![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_4.png?raw=true)
 ![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_5.png?raw=true)
+
+** Dodan algoritam koji odabranu sliku siječe u kvadrante i olakšava detekciju registarske oznake**
+
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_10.png?raw=true)
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_9.png?raw=true)

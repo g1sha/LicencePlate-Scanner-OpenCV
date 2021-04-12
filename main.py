@@ -6,10 +6,7 @@ import pytesseract as tess
 
 def detektujTablicu(img):
     img = cv.resize(img, (500,300) )
-
     cv.imshow('Full Original',img)
-
-
     blnkSc = None
 
     gscale = cv.cvtColor(img, cv.COLOR_BGR2GRAY) 
@@ -49,11 +46,19 @@ def detektujTablicu(img):
 
 def cropCetvrtina(img):
     cropCV_1 = img[0:(img.shape[0]//2), 0:(img.shape[1]//2)]
+    cropCV_2 = img[(img.shape[0]//2):(img.shape[0]), (img.shape[1]//2):(img.shape[1])]
+    cropCV_3 = img[(img.shape[0]//2):(img.shape[0]), 0:(img.shape[1]//2)]
+    cropCV_4 = img[0:(img.shape[0]//2), (img.shape[1]//2):(img.shape[1])]
+
     cv.rectangle(img,((img.shape[1]//2),0), ((img.shape[1]), img.shape[0]//2), (0,255,0),thickness=2)
     cv.putText(img, "Polje za crop 1/4 slike", ((img.shape[1]//2)-110, (img.shape[0]//2)-10), cv.FONT_HERSHEY_PLAIN, 0.5, (0,255,0), 1)
-    cv.imshow("crop", cropCV_1)
+    cv.imshow("crop1", cropCV_1)
+    cv.imshow("crop2", cropCV_2)
+    cv.imshow("crop3", cropCV_3)
+    cv.imshow("crop4", cropCV_4)
+    #detektujTablicu(cropCV_4)
 
-img = cv.imread('images/golf.jpg') ## UCITAVANJE SLIKE !
+img = cv.imread('images/pd.jpg') ## UCITAVANJE SLIKE !
 ## SPLIT SLIKU U DIJELOVE
 cropCetvrtina(img)
 

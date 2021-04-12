@@ -50,3 +50,12 @@ A neke su iz prvog pokušaja detektovane jer polje pretrage nema puno kontura:
 
 ![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_10.png?raw=true)
 ![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_9.png?raw=true)
+
+Također dodao sam i sječenje slike u dva dijela po pola slike!
+
+## Finalni proizvod izgleda otprilike ovako:
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_11.png?raw=true)
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_12.png?raw=true)
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_13.png?raw=true)
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_14.png?raw=true)
+![alt text](https://github.com/g1sha/LicencePlate-Scanner-OpenCV/blob/main/screenshots/Screenshot_15.png?raw=true)
